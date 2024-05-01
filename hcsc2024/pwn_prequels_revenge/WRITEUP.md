@@ -19,6 +19,7 @@ When we open up the binary in our favourite decompiler we can see that the progr
 We can use `seccomp-tools` to dump the restrictions.
 
 ![](screenshots/seccomp.png)
+
 As you can see using execve and execveat results in terminating the process, so we can't really get a shell without exploiting the kernel itself in order to bypass the seccomp filter. However, this protection won't stop us from getting the flag.
 
 ## The vulnerability
