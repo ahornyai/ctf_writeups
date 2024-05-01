@@ -17,15 +17,15 @@ When we open up the binary in our favourite decompiler we can see that the progr
 We can use `seccomp-tools` to dump the restrictions.
 
 ![](screenshots/seccomp.png)
-As you can see using execve and execveat results in terminating the process, so we can't really get a shell without exploiting the kernel itself in order to bypass the seccomp filter. However this protection won't stop us in getting the flag.
+As you can see using execve and execveat results in terminating the process, so we can't really get a shell without exploiting the kernel itself in order to bypass the seccomp filter. However, this protection won't stop us from getting the flag.
 
 ## The vulnerability
 ![](screenshots/read_name.png)
 
-The function `read_name` calls `gets` on a given buffer. It is a well known fact that using `gets` is a bad idea, because it doesn't do a length check on the input at all before writing it to the buffer. This is a classical case of a stack-based buffer overflow.
+The function `read_name` calls `gets` on a given buffer. It is a well-known fact that using `gets` is a bad idea, because it doesn't do a length check on the input at all before writing it to the buffer. This is a classical case of a stack-based buffer overflow.
 
 ## Exploitation
-Our buffer in this case is 64 bytes long, and there is an 8 bytes long base pointer, so the offset will be 72 bytes till the return address.
+Our buffer in this case is 64 bytes long, and there is an 8 bytes long base pointer, so the offset will be 72 bytes till the return address. The stack canary protection written by the checksec is actually not true for the main method.
 We can also calculate this dynamically with the following code.
 ```python
 from pwn import *
@@ -39,8 +39,8 @@ p.wait()
 print(cyclic_find(p.corefile.fault_addr))
 ```
 
-Since there is no segment that is writeable and executable at the same time we have to use return oriented programming (ROP), we can't just send a shellcode and jump there.
-Fortunately our job is quite easy, because there is a function that prints out the flag using the debug `messages_debug.db` file. The function takes a number that determines the amount of the returned records.
+Since no segment is writeable and executable at the same time we have to use return oriented programming (ROP), we can't just send a shellcode and jump there.
+Fortunately, our job is quite easy because there is a function that prints out the flag using the debug `messages_debug.db` file. The function takes a number that determines the amount of the returned records.
 
 ![](screenshots/print_debug_flag.png)
 

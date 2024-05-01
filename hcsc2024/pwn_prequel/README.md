@@ -4,7 +4,7 @@ Bob, Alíz és Éva imádnak különboző módokon köszönni egymásnak. Olyan 
 > Készítői kommentek:
 >-  a megoldáshoz szerver oldali brute-force nem szükséges
 >-  VPN kapcsolat szükséges
->-  A jelenlegi `challenge.zip` sha256sum hash-e:
+>-  A jelenlegi [challenge.zip](files/challenge.zip) sha256sum hash-e:
 > `df1b6b223fc4b7c3f391f46b7f9ba32e0887390d88cdab9d25c17616927866c4`
 >-  a challenge egyetlen porton fut
 
@@ -14,3 +14,4 @@ Bob, Alíz és Éva imádnak különboző módokon köszönni egymásnak. Olyan 
 `10.10.1-9.12`
 
 # Writeup
+[Open the writeup](WRITEUP.md)

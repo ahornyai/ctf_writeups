@@ -1,6 +1,5 @@
 from pwn import *
 
-context.log_level = "debug"
 context.binary = elf = ELF("./prequel")
 
 p = remote("10.10.5.12", "20882")#process()
