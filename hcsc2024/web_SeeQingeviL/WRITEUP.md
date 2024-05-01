@@ -3,19 +3,19 @@
 # Recon
 - The challenge runs on port `50211`
 - In the source we find multiple references for files in a /html/ directory.
-- The directory listing is enabled, we find a file named `login.html`, which is a hidden login page.
+- The directory listing is enabled, and we find a file named `login.html`, which is a hidden login page.
 
 # Exploitation
 ![](screenshots/login.png)
 
-We see the login page and test for sql injection, we fail.
+We see the login page and test for sql injection, but we fail.
 My next guess was nosql injection.
 
 ![](screenshots/exploit.png)
 
-The exploitation succeeded, my query asked for an entry that hadn't have empty username and password.
+The exploitation succeeded, my query asked for an entry that didn't have an empty username and password.
 
-# (probably) unintended solve
+# (probably) unintended solution
 ![](screenshots/empty.png)
 
 When we send an empty json object it also gives the flag because of the nosql injection.
