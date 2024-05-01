@@ -1,11 +1,11 @@
 # Overview
 The given zip file contains a docker image with a 64 bit binary called prequel. There is also a `create_message_db.sh` script in the assets directory which creates an sqlite database in a file called `messages.db`
 
-This challenge is essentially the same as `prequels`, but this time we don't have any debug functions or useful strings, so we have to be smart about constructing our ROP chain.
+This challenge is essentially the same as `prequel`, but this time we don't have any debug functions or useful strings, so we have to be smart about constructing our ROP chain.
 
 ## Binary
 ![](screenshots/executable.png)
-We have a statically linked 64-bit ELF executable. The symbols are fortunately not stripped. Pwntools' `checksec` says that there is stack canary protection in place - this is not true for the main function, and there isn't a memory segment that is writeable and executable at the same time. We also don't have to worry about ASLR, the binary starts always at the same address in the memory.
+We have a statically linked 64-bit ELF executable. The symbols are fortunately not stripped. Pwntools' `checksec` says that there is stack canary protection in place - this is not true for the main function, and there isn't a memory segment that is writeable and executable at the same time. We don't have to worry about ASLR, the binary starts always at the same address in the memory.
 
 ## Running the binary
 ![](screenshots/running_executable.png)
@@ -72,4 +72,4 @@ log.info("Got flag: " + flag)
 ```
 
 Running the exploit on remote yields the following flag: `HCSC24{h0pe_y0u_u53d_the_str1nG_1n_pR3qu3l_4nd_n0t_b0ring_r34d}`
-This is pretty funny because my first method for solving the previous challenge named `prequels` was this exploit, then I realized there is a simpler way, but actually, this was beneficial, because on the second day, this challenge came out and I already had this exploit.
+This is pretty funny because my first method for solving the previous challenge named `prequel` was this exploit, then I realized there is a simpler way, but actually, this was beneficial, because on the second day, this challenge came out and I already had this exploit.

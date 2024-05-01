@@ -3,7 +3,7 @@ The given zip file contains a docker image with a 64 bit binary called prequel. 
 
 ## Binary
 ![](screenshots/executable.png)
-We have a statically linked 64-bit ELF executable. The symbols are fortunately not stripped. Pwntools' `checksec` says that there is stack canary protection in place, and there isn't a memory segment that is writeable and executable at the same time. We also don't have to worry about ASLR, the binary starts always at the same address in the memory.
+We have a statically linked 64-bit ELF executable. The symbols are fortunately not stripped. Pwntools' `checksec` says that there is stack canary protection in place, and there isn't a memory segment that is writeable and executable at the same time. We don't have to worry about ASLR, the binary starts always at the same address in the memory.
 
 ## Running the binary
 ![](screenshots/running_executable.png)
