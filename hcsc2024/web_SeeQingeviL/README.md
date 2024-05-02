@@ -18,6 +18,7 @@
 > - A flag-et pontosan kell beadni
 
 **Flag formátum**: `HCSC24{...}`
+
 *By incarrnati0n*
 
 `10.10.1-9.12`

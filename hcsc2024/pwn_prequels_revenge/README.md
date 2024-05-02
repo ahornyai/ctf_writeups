@@ -9,6 +9,7 @@
 >-  a challenge egyetlen porton fut
 
 **Flag formátum**: `HCSC24{...}`
+
 *By MJ*
 
 `10.10.1-9.12`

