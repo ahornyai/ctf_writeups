@@ -36,11 +36,11 @@ Let's look around in the binary using the command `pd 0x1000`.
 I saved the output to [this file](files/binary.txt)
 
 There are a few interesting functions:
-`fcn.0000142d` - the entry point
-`fcn.000012ec` - checks if the contents of `/etc/hostname` are equal to `adams-pc`, this function is invoked in the entry point, if the statement is true
-`fcn.0000122b` - prints out a random quote
-`fcn.0000139d` - prints out the flag (reads out the contents of `/secret/flag.txt`)
-`fcn.00001215` - prints out unauthorized
+- `fcn.0000142d` - the entry point
+- `fcn.000012ec` - checks if the contents of `/etc/hostname` are equal to - `adams-pc`, this function is invoked in the entry point, if the statement is true
+- `fcn.0000122b` - prints out a random quote
+- `fcn.0000139d` - prints out the flag (reads out the contents of `/secret/flag.txt`)
+- `fcn.00001215` - prints out unauthorized
 
 By default, the binary always calls `fcn.00001215` and prints out the string `Unauthorized`, this call is made at the following memory address: `0x00001469`
 
