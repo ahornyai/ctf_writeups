@@ -135,9 +135,9 @@ strings -e l 3800.dmp | grep HCSC24
 HCSC24{975055B22AA57458DD04B6580DC352B8}
 ```
 
-## Uninteded solution
+## Unintended solution
 
 You might have already realized that we don't even have to dump the process memory because it is already contained in the memory dump.
 Just run `strings -e l hcsc24.dmp | grep HCSC24` and you will be able to get the flag as well.
 
-This challenge was a pretty good introduction in the fascinating world of memory forensics.
+This challenge was a pretty good introduction to the fascinating world of memory forensics.
