@@ -1,0 +1,37 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: app-release.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- lib/arm64-v8a/libantiskid.so
+- lib/arm64-v8a/libutils.so
+- lib/armeabi-v7a/libantiskid.so
+- lib/armeabi-v7a/libutils.so
+- lib/x86_64/libantiskid.so
+- lib/x86_64/libutils.so
+- webp
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  kotlin-tooling-metadata.json: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

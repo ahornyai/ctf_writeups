@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogWindowTheme">
+        <item name="android:windowClipToOutline">false</item>
+    </style>
+    <style name="ExoMediaButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/exo_media_button_width</item>
+        <item name="android:layout_height">@dimen/exo_media_button_height</item>
+    </style>
+    <style name="ExoMediaButton.FastForward" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_fastforward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style>
+    <style name="ExoMediaButton.Next" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+    <style name="ExoMediaButton.Pause" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoMediaButton.Play" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoMediaButton.Previous" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+    <style name="ExoMediaButton.Rewind" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style>
+    <style name="ExoMediaButton.VR" parent="@style/ExoMediaButton">
+        <item name="android:src">@drawable/exo_controls_vr</item>
+        <item name="android:contentDescription">@string/exo_controls_vr_description</item>
+    </style>
+    <style name="ExoStyledControls" />
+    <style name="ExoStyledControls.Button" parent="@style/ExoStyledControls">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_marginLeft">@dimen/exo_icon_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/exo_icon_horizontal_margin</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom" parent="@style/ExoStyledControls.Button">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/exo_small_icon_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/exo_small_icon_padding_vertical</item>
+        <item name="android:paddingRight">@dimen/exo_small_icon_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/exo_small_icon_padding_vertical</item>
+        <item name="android:layout_width">@dimen/exo_small_icon_width</item>
+        <item name="android:layout_height">@dimen/exo_small_icon_height</item>
+        <item name="android:layout_marginLeft">@dimen/exo_small_icon_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/exo_small_icon_horizontal_margin</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.AudioTrack" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_audiotrack</item>
+        <item name="android:contentDescription">@string/exo_track_selection_title_audio</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.CC" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_subtitle_off</item>
+        <item name="android:contentDescription">@string/exo_controls_cc_disabled_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.FullScreen" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_fullscreen_enter</item>
+        <item name="android:contentDescription">@string/exo_controls_fullscreen_enter_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.OverflowHide" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_overflow_hide</item>
+        <item name="android:contentDescription">@string/exo_controls_overflow_hide_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.OverflowShow" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_overflow_show</item>
+        <item name="android:contentDescription">@string/exo_controls_overflow_show_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.PlaybackSpeed" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_speed</item>
+        <item name="android:contentDescription">@string/exo_controls_playback_speed</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.RepeatToggle" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_repeat_off</item>
+        <item name="android:contentDescription">@string/exo_controls_repeat_off_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.Settings" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_settings</item>
+        <item name="android:contentDescription">@string/exo_controls_settings_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.Shuffle" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_shuffle_off</item>
+        <item name="android:contentDescription">@string/exo_controls_shuffle_off_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Bottom.VR" parent="@style/ExoStyledControls.Button.Bottom">
+        <item name="android:src">@drawable/exo_styled_controls_vr</item>
+        <item name="android:contentDescription">@string/exo_controls_vr_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center" parent="@style/ExoStyledControls.Button">
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">@dimen/exo_icon_size</item>
+        <item name="android:layout_height">@dimen/exo_icon_size</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center.FfwdWithAmount" parent="@style/ExoStyledControls.Button.Center">
+        <item name="android:textSize">@dimen/exo_icon_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/exo_white</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/exo_icon_padding_bottom</item>
+        <item name="android:foreground">@drawable/exo_styled_controls_fastforward</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="backgroundTint">@color/exo_white</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center.Next" parent="@style/ExoStyledControls.Button.Center">
+        <item name="android:padding">@dimen/exo_icon_padding</item>
+        <item name="android:src">@drawable/exo_styled_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center.PlayPause" parent="@style/ExoStyledControls.Button.Center">
+        <item name="android:padding">@dimen/exo_icon_padding</item>
+        <item name="android:src">@drawable/exo_styled_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center.Previous" parent="@style/ExoStyledControls.Button.Center">
+        <item name="android:padding">@dimen/exo_icon_padding</item>
+        <item name="android:src">@drawable/exo_styled_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+    <style name="ExoStyledControls.Button.Center.RewWithAmount" parent="@style/ExoStyledControls.Button.Center">
+        <item name="android:textSize">@dimen/exo_icon_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/exo_white</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/exo_icon_padding_bottom</item>
+        <item name="android:foreground">@drawable/exo_styled_controls_rewind</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="backgroundTint">@color/exo_white</item>
+    </style>
+    <style name="ExoStyledControls.TimeBar" parent="@style/ExoStyledControls">
+        <item name="android:layout_height">@dimen/exo_styled_progress_layout_height</item>
+        <item name="bar_gravity">bottom</item>
+        <item name="bar_height">@dimen/exo_styled_progress_bar_height</item>
+        <item name="scrubber_dragged_size">@dimen/exo_styled_progress_dragged_thumb_size</item>
+        <item name="scrubber_enabled_size">@dimen/exo_styled_progress_enabled_thumb_size</item>
+        <item name="touch_target_height">@dimen/exo_styled_progress_touch_target_height</item>
+    </style>
+    <style name="ExoStyledControls.TimeText" parent="@style/ExoStyledControls">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ExoStyledControls.TimeText.Duration" parent="@style/ExoStyledControls.TimeText">
+        <item name="android:textColor">@color/exo_white_opacity_70</item>
+        <item name="android:text">@string/exo_controls_time_placeholder</item>
+    </style>
+    <style name="ExoStyledControls.TimeText.Position" parent="@style/ExoStyledControls.TimeText">
+        <item name="android:textColor">@color/exo_white</item>
+        <item name="android:text">@string/exo_controls_time_placeholder</item>
+    </style>
+    <style name="ExoStyledControls.TimeText.Separator" parent="@style/ExoStyledControls.TimeText">
+        <item name="android:textColor">@color/exo_white_opacity_70</item>
+        <item name="android:text">·</item>
+    </style>
+    <style name="FloatingDialogTheme">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="FloatingDialogWindowTheme">
+        <item name="android:dialogTheme">@style/FloatingDialogTheme</item>
+        <item name="android:windowClipToOutline">false</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media" />
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title" />
+    <style name="Theme.ThereOTT" parent="@android:style/Theme.Material.Light.NoActionBar" />
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/androidx_core_secondary_text_default_material_light</item>
+    </style>
+</resources>

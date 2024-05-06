@@ -18,7 +18,7 @@ be found on [my homepage](https://zubrod-eds.de/en/2021/04/11/bienen-klassifizie
 the CNN only 8 were classified wrong.
 ```
 
-We follow the installation steps and modify the [beep_app.py](workdir/bee_app.py) file for our purposes.
+We follow the installation steps and modify the [bee_app.py](workdir/bee_app.py) file for our purposes.
 After running the classifier script, we get the flag.
 
 ```
