@@ -50,7 +50,7 @@ Let's take a look at the UtilsJNI class now.
 .end method
 ```
 
-If we take a look at the smali bytecode, we can see that it loads the native library `antiskid` in the static init function and it defines a new static native function that takes 6 strings and returns a string.
+If we take a look at the smali bytecode, we can see that it loads the native library `antiskid` in the static init function and it defines a static native function that takes 6 strings and returns a string.
 
 Let's open `antiskid.so` in our favourite decompiler to see how it works.
 
