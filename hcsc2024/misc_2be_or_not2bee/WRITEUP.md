@@ -10,7 +10,7 @@ An example output for the endpoint `/images` can be found [here](workdir/images.
 My first idea was to look around on GitHub for trained above 99% accuracy models for this exact problem because probably many smart researchers have already done this project.
 
 I've found this very promising project: https://github.com/jochen-eds/bee-app/
-This classifier shows pretty accurate results.
+This classifier shows pretty good results.
 ```
 The CNN (more info about its architecture and hyperparameters can 
 be found on [my homepage](https://zubrod-eds.de/en/2021/04/11/bienen-klassifizieren-mit-cnns/)) had an accuracy higher than
