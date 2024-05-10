@@ -46,7 +46,7 @@ if absDiff.Cmp(tolerance) < 0 {
 We need to solve a "simple" equation and send a solution under 200 digits. Sounds simple enough.
 Well, it turns out this is not just a simple [diophantine equation](https://en.wikipedia.org/wiki/Diophantine_equation) that is common at secondary school math competitions. Luckily, I've already met with this problem in the following nerdy math meme:
 
-![](files/banana.webp)
+![](screenshots/banana.webp)
 
 The joke is that even though this seems a simple challenge because of the emojis, there are no "trivial" or small solutions to this problem. The smallest positive integers that satisfy this equation are: (154476802108746166441951315019919837485664325669565431700026634898253202035277999, 36875131794129999827197811565225474825492979968971970996283137471637224634055579, 4373612677928697257861252602371390152816537558161613618621437993378423467772036)
 
