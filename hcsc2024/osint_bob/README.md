@@ -1,4 +1,4 @@
-# BoB (300 point)
+# BoB (300 point) - 20 solves
 Minden magyar szereti a söröket, de vannak akik ezt túlzásba viszik. Egy ismert sörkóstolót csalásért köröznek, szinte felszívódott, de volt egy oldala ami úgy tűnik már nem létezik. Azért megadom hátha tudsz vele kezdeni valamit. https://beersofbudapest.blog
 
 > Készítői kommentek:

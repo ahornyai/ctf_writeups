@@ -1,4 +1,4 @@
-# Prequel's revenge (400 point)
+# Prequel's revenge (400 point) - 9 solves
 💀 Mi udvariasan köszönünk neked és te ellopod a flaget?! Ennyit számít számodra a becsületesség? Hát hol a határ? Szerencsére megvan a hálózati naplókból, hogy hogy csináltad. Úgy tűnik manapság nem hagyhat az ember debugra használt függvényeket a kódjában anélkül, hogy valami jótevő ki ne használná azt... Megjegyeztem! És persze megszabadultam tőle. Mostantól biztonság és nyugalom van! Igen, neked is jó reggelt... 😮‍💨
 
 > Készítői kommentek:

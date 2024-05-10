@@ -1,4 +1,4 @@
-# ThereOTT (400 point)
+# ThereOTT (400 point) - 17 solves
 Töltsd le a legújabb alkalmazásomat és szórakozz a legújabb beteg mémeken! 🤪
 
 Sajna semmi se fenékig tejfel, nyilván ezt a szolgáltatást is elkezdték támadni a script kiddiek. És bár a backendem szupergyors, ez okozott némi kimaradást, mivel a kiszolgált videók elég nagyok és elszaturálták a linkemet. Ezért egy forradalmi DDoS védelmi megoldással álltam elő! Eddig tökéletesen működött, SENKI sem tudta feltörni. De ha neked mégis sikerülne, akkor egy tonna dellát ajánlok figyelmedbe challenge pontok formájában! Van egy `/flag` végpont a lelkes bughuntereknek. Küldj rá egy sikeres kérést, küldd el a bizonyítékot, és keresd meg a bugbounty manit!

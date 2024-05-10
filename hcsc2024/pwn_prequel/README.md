@@ -1,4 +1,4 @@
-# Prequel (350 point)
+# Prequel (350 point) - 11 solves
 Bob, Alíz és Éva imádnak különboző módokon köszönni egymásnak. Olyan sok különböző köszönési formát gyűjtöttek össze, hogy egy egyszerű szöveges fájlnál többre van szükségük a tárolásukhoz. Régebben egy JSON adatbázist használtak, mert a JSON erre kiválóan alkalmas, nem igaz? De egy nemrégiben bekövetkezett áramszünet miatt megsérült az adatbázisuk. A program nem fejezte be a záró `}` írását és így az összes eddigi adat ment a levesbe... Végre új ötlettel álltak elő! Így született meg a `prequel`. Szeretnéd, hogy üdvözöljenek? Mire vársz, csatlakozz!
 
 > Készítői kommentek:

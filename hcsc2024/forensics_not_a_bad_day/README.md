@@ -1,4 +1,4 @@
-# Not a bad day (450 point)
+# Not a bad day (450 point) - 15 solves
 Egyik nap borzasztó fejfájással ébredtem! Mi történt tegnap...? A fene tudja. Csak azt tudom, hogy felkeltem és eltűnt a flag a gépemről. Tudnál segíteni? Segíts, hogy legalább a mai napom legyen egy jobb nap. 😊
 
 > Készítői kommentek:

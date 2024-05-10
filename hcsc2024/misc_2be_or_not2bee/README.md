@@ -1,4 +1,4 @@
-# 2be||!2bee (450 point)
+# 2be||!2bee (450 point) - 21 solves
 
 Emlékeztek a tavalyi qbittorrent honeypotra? Ahogy a mondás tartja: ahol csupor, ott méh is van! Ahogy egy új honeypoton dolgoztam, megtámadott néhány méh. Ezzel csak az a probléma, hogy allergiás vagyok az olasz méhekre. Pontosan tudnom kell, hogy melyik méh milyen, hogy később megmondhassam a háziorvosnak. Csináltam pár képet róluk. Tudnál segíteni nekem?
 

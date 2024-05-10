@@ -1,4 +1,4 @@
-# Note to self (400 point)
+# Note to self (400 point) - 27 solves
 
 Flag formátum: `HCSC24{md5hash}`
 

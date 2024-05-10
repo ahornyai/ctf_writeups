@@ -1,4 +1,4 @@
-# Trekking (300 point)
+# Trekking (300 point) - 46 solves
 Bonyolult a labirintust navigálni, bárcsak lenne módunk rá, hogy lebonthassuk a falakat.....
 
 > Készítői kommentek:

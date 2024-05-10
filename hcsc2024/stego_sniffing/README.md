@@ -1,4 +1,4 @@
-# Sniffing (200 point)
+# Sniffing (200 point) - 152 solves
 Ez gáz! Vagy gaz?
 
 Csak a [zip file](files/Sniff.zip) letöltése szükséges.

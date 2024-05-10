@@ -1,4 +1,4 @@
-# !SeeQingeviL (250 point)
+# !SeeQingeviL (250 point) - 30 solves
 > Summer: Nagypapa Mr.Needful megint elkezdte a hülye Web3 projektjét!
 
 > Rick: B***** meg magát úgy látszik megint meg kell verni, hagyd hogy nagypapa dolgozzon.

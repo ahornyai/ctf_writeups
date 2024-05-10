@@ -1,4 +1,4 @@
-# Creeper or griefer? (250 point)
+# Creeper or griefer? (250 point) - 19 solves
 Készítettem egy Minecraft szervert (`1.20.4`) a haveroknak. Kezdetben Hamachi segítségével működött, de hamar késleltetési problémákba ütköztünk. Egy YouTube tutorial alapján áttértem egy VPS-re, és saját port forwardot konfiguráltam, ami jelentősen javította a teljesítményt. Azonban még aznap rövid időre csatlakozott egy ismeretlen játékos, és azóta ismeretlen játékosok tömkelege csatlakozik a szerverünkhöz. A teljes mapot láva és TNT pusztította, ami hackertámadásra engedett gyanakodni. Közel egy hónapra leállítottam a szervert, és végül eladtam a VPS-t, de nagyon szeretném kideríteni, hogy ki áll a rosszindulatú trollkodás mögött. Lehet tényleg csak a creeperek keltek önálló életre? Tudsz segíteni?
 
 **Az IP-cím, ahol a szerver futott**: 193.225.250.153
