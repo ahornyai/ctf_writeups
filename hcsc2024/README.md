@@ -18,6 +18,13 @@ Some statistics:
 - 72 hours of hacking time
 - 248 competitors submitted at least one flag
 
+Challenge descriptions are kept in the original language (This means that pretty much everything is Hungarian, except the VM challenges). Deepl or Google Translate can be used for translating them.
+
 The challenges were hosted in a closed network.
 
 **[Service discovery](SERVICES.md)**
+
+Writeups by others:
+- Deathbaron (the winner) - https://github.com/mullerdavid/ctf_writeups/tree/master/hcsc24
+- tk (second place) - https://tkh4ck.github.io/ctf/2024/hcsc/
+- MJ (the creator of most of the challenges, he even included source codes for the backend) - https://github.com/NIK-SOC/hcsc_2024_mj
