@@ -82,7 +82,7 @@ What is this operation exactly, and how it works?
 
 I don't want to go into details here because many publications do an excellent job of describing this group operation.
 A formal definition can be read here: https://crypto.stanford.edu/pbc/notes/elliptic/explicit.html
-I've also done a presentation at a local meetup about this topic, showcasing the basics of elliptic curve cryptography, and mentioning common vulnerabilities, and backdoors. Even though the speech is in Hungarian, I still recommend you to watch it because the animations are pretty nice (some of them are taken from [here](https://github.com/thud/eccdemo)).
+I've also done a presentation at a local meetup about this topic, showcasing the basics of elliptic curve cryptography, and mentioning common vulnerabilities, and backdoors. Even though the talk is in Hungarian, I still recommend you to watch it because the animations are pretty nice (some of them are taken from [here](https://github.com/thud/eccdemo)).
 https://youtu.be/gNwYsYJliFk
 
 ## Using sage
